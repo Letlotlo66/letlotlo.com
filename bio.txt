@@ -1,0 +1,62 @@
+
+<html>
+<title>Letlotlo Matlali</title>
+<head>
+<link rel="stylesheet" href="Matlali.css">
+</head>
+<body>
+<header class="header">
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"> <span>Letlotlo</span>Matlali </a>
+
+    <nav class="navbar">
+        <a href="home.html">Home</a>
+        <a href="bio.html">Bio</a>
+	<a href="edu.html">Education</a>
+	<a href="hobbies.html">Hobbies</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+   
+</header>
+
+<section class="vehicles" id="vehicles">
+
+    <h1 class="heading">My <span>Life</span> </h1>
+
+    <div class="swiper photos-slider">
+
+        <div class="swiper-wrapper">
+
+
+            <div class="swiper-slide box">
+                <a title="new model" img src="images/port (1).jpg" alt="">
+                <div class="content">
+                    <h3>The man of the hour</h3>
+                    <p>My name is Letlotlo Matlali, I am a mosotho male aged 24. I am currently pursuing a degree in software engineering at Limkokwing University Lesotho.</p>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/port (3).jpg" alt="">
+		
+                <div class="content">
+                 <p>To completely understand me, you need to know where I come from. I am the son of one Makalo Matlali and 'Malemohang Matlali, who live at Ha-'Masana Maseru.</br> They have married for over 30 years and have three children.</br> I am their second born and their only son.</p>
+            
+                </div>
+            </div>
+
+         
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+
+
+</body></html>

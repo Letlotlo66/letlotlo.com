@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+
+.heading {
+    padding-bottom: 1.5rem;
+    text-align: center;
+    font-size: 3.5rem;
+    color: #ff230038;
+}
+section {
+    padding: 7rem 1%;
+
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+    background: linear-gradient(290deg, #9d8b0c, #4548a98c);
+}
+.header {
+    border: aquamarine;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: -200px;
+    right: 0px;
+    padding: 1.2rem 0%;
+    z-index: 1000;
+    background: #749eb3;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.header .logo span{
+    color: purple;
+}
+
+img {
+    width: -webkit-fill-available;
+    height: auto;
+    margin: 0rem 0;
+    position: static;
+    float: left;
+}
+
+img {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    margin: 0rem 0;
+    position: sticky;
+}
+.div .span{
+    color: red;
+}
+.section .logo{
+    font-size: 2.5rem;
+    color:var(--black);
+    font-weight: bold;
+}
+.section .navbar a{
+    margin:0 1rem;
+    font-size: 1.7rem;
+    color:var(--black);
+}
+.section .navbar a:hover{
+    color:var(--yellow);
+}
+.logo{
+    font-size: 2.5rem;
+    color:var(--black);
+    font-weight: bold;
+}
+.logo {
+    font-size: -webkit-xxx-large;
+    color: darkcyan;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: cursive;
+}
+footer{
+    background-color: light green;
+    padding:1.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 8rem;
+    color: blue;
+    text-align: center;
+    height: 40px;
+    font-size: 20px;
+    float: center;
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:1.5rem;
+}
+
+.footer .box-container .box h3{
+    font-size: 2.2rem;
+    padding:1rem 0;
+    color:var(--black);
+}
+
+.footer .box-container .box a{
+    display: block;
+    font-size: 1.4rem;
+    padding:1rem 0;
+    color:var(--light-color);
+}

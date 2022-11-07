@@ -1,0 +1,61 @@
+
+
+<html>
+<title>Letlotlo Matlali</title>
+<head>
+<link rel="stylesheet" href="Matlali.css">
+</head>
+<body>
+<header class="header">
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"> <span>Letlotlo</span>Matlali </a>
+
+    <nav class="navbar">
+        <a href="home.html">home</a>
+        <a href="bio.html">Bio</a>
+        <a href="edu.html">Education</a>
+        <a href="hobbies.html">Hobbies</a>
+        <a href="contact.html">Contacts</a>
+    </nav>
+
+   
+</header>
+
+<section class="photos" id="photos">
+   <h1 class="heading">My <span>Life</span> </h1>
+    <div class="swiper photos-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <img src="images/port (2).jpg" alt="center">
+                <div class="content">
+                    <h3><span>My educational background</span></h3>
+			<p><h3>Schools Attended<h3></br>I attended my primary at Iketsetseng Private School, from 2004 to 2010 where I obtained my PSLE certificate.</br> I then went on to pursue my Junior Certificate at Khethisa High School, where I also obtained my LGCSE certificate in the year 2015.</p>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="images/port (1).jpg" alt="center">
+                <div class="content">
+                
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+    </div>
+
+</section>
+<footer>
+           <h3>Current education</h3>
+			<p> </p>
+			<p>I am currently pursuing my Bachelor's Degree in Software Engineering with Multimedia</br> at the Limkokwing University of creative technology; Lesotho branch.</br> currently doing my second year.</p>
+          
+</footer>
+
+</body></html>
